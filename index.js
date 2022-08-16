@@ -14,16 +14,24 @@ console.log(scuberGreetingForFeet(500))
 
 function ternaryCheckCity(city){
   // Write your code here!
-if (city="NYC"){
+if (city = "NYC"){
   return 'Ok,sounds good.';
 }
-else if (city = 'Pittsburgh'){
-  return 'No go.';
+else{
+  return 'No go';
 }
   
 }
-console.log(ternaryCheckCity('Pittsburgh'))
+console.log(ternaryCheckCity("NYC"))
 
 function switchOnCharmFromTip(){
   // Write your code here!
+  switch (key) {
+    case value:
+      
+      break;
+  
+    default:
+      break;
+  }
 }
