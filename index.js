@@ -27,13 +27,16 @@ console.log(ternaryCheckCity("oscar"))
 
 function switchOnCharmFromTip(){
   // Write your code here!
+  let tip ="generous";
   switch(tip){
-    case "generous":
-      return "Thank you so much."
-     case "not as generous":
+    case "generous" :
+      console.log("Thank you so much.");
       break;
-      return "Thank you"
-       default:
-        return "Bye."
+      case tip != "generous":
+        console.log("Thank you");
+        break;
+        default:
+          console.log("Bye");
   }
 }
+console.log(switchOnCharmFromTip())
