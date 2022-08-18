@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 8,
-    "passes": 4,
+    "passes": 5,
     "pending": 0,
-    "failures": 4,
-    "start": "2022-08-18T11:13:53.672Z",
-    "end": "2022-08-18T11:13:54.150Z",
-    "duration": 478
+    "failures": 3,
+    "start": "2022-08-18T11:16:58.243Z",
+    "end": "2022-08-18T11:16:58.750Z",
+    "duration": 507
   },
   "tests": [
     {
@@ -27,22 +27,16 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 2,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'Ok,sounds good.' to equal 'Ok, sounds good.'",
-        "showDiff": true,
-        "actual": "Ok,sounds good.",
-        "expected": "Ok, sounds good.",
-        "stack": "AssertionError: expected 'Ok,sounds good.' to equal 'Ok, sounds good.'\n    at Context.<anonymous> (test/indexTest.js:18:42)\n    at processImmediate (internal/timers.js:461:21)"
-      }
+      "err": {}
     },
     {
       "title": "should return \"No go.\" if the destination city is not NYC",
@@ -68,26 +62,13 @@
     {
       "title": "should return \"Bye.\" if anything else",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
   ],
   "pending": [],
   "failures": [
-    {
-      "title": "returns \"Ok, sounds good.\" when the city is NYC",
-      "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Ok,sounds good.' to equal 'Ok, sounds good.'",
-        "showDiff": true,
-        "actual": "Ok,sounds good.",
-        "expected": "Ok, sounds good.",
-        "stack": "AssertionError: expected 'Ok,sounds good.' to equal 'Ok, sounds good.'\n    at Context.<anonymous> (test/indexTest.js:18:42)\n    at processImmediate (internal/timers.js:461:21)"
-      }
-    },
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
@@ -105,7 +86,7 @@
     {
       "title": "should return \"Bye.\" if anything else",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
@@ -128,6 +109,13 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"Ok, sounds good.\" when the city is NYC",
+      "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
       "duration": 0,
       "currentRetry": 0,
       "err": {}

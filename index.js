@@ -15,11 +15,15 @@ console.log(scuberGreetingForFeet(2007))
 
 function ternaryCheckCity(city ){
   // Write your code here!
-return city ==="NYC"?"Ok,sounds good.":"No go."
+if (city === "NYC"){
+  return "Ok, sounds good."
+} else{
+  return "No go."
+}
 }
   
 
-console.log(ternaryCheckCity("NYC"))
+console.log(ternaryCheckCity("oscar"))
 
 function switchOnCharmFromTip(){
   // Write your code here!
