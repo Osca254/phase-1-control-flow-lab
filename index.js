@@ -1,24 +1,25 @@
 function scuberGreetingForFeet(ride){
   // Write your code here!
   // let message;
-  if (ride<=400){
+  if ((ride) <= 400){
     return('This one is on me!');
-  }else if (ride => 2000  && ride <=2500){
+  }
+  else if ((ride)>2000 && (ride)<=2500){
     return("I will gladly take your thirty bucks.");
-  }else {
-    return 'No can do'
+  }else{
+    return 'No can do.'
   }
   
 }
-console.log(scuberGreetingForFeet(500))
+console.log(scuberGreetingForFeet(2007))
 
-function ternaryCheckCity(city){
+function ternaryCheckCity(city = "NYC"){
   // Write your code here!
-if (city = "NYC"){
+if ((city)=== 'NYC'){
   return 'Ok,sounds good.';
 }
-else{
-  return 'No go';
+else if((city)=== 'Pittsburgh') {
+  return 'No go.';
 }
   
 }
@@ -26,12 +27,5 @@ console.log(ternaryCheckCity("NYC"))
 
 function switchOnCharmFromTip(){
   // Write your code here!
-  switch (key) {
-    case value:
-      
-      break;
   
-    default:
-      break;
-  }
 }
