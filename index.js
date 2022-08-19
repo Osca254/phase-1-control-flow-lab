@@ -13,24 +13,25 @@ function scuberGreetingForFeet(ride){
 }
 console.log(scuberGreetingForFeet(2007))
 
-function ternaryCheckCity(city = "NYC" ){
+function ternaryCheckCity(city){
   // Write your code here!
-  return (city === true)? "Ok,sounds good." : "No go."
+
+  return (city === "NYC")? "Ok, sounds good."  : "No go."
 }
 console.log(ternaryCheckCity("NYC"))
 
 function switchOnCharmFromTip(){
   // Write your code here!
-  let tip ="generous";
+  const tip ="generous";
   switch(tip){
     case "generous" :
-      console.log("Thank you so much.");
+      return("Thank you so much.");
       break;
-      case tip != "generous":
-        console.log("Thank you");
+    case "generous":
+       return ("Thank you.");
         break;
-        default:
-          console.log("Bye");
+    default:
+         return ("Bye.");
   }
 }
-switchOnCharmFromTip()
+console.log(switchOnCharmFromTip("oscar"));
