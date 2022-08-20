@@ -2,18 +2,18 @@
   "stats": {
     "suites": 4,
     "tests": 8,
-    "passes": 6,
+    "passes": 7,
     "pending": 0,
-    "failures": 2,
-    "start": "2022-08-19T09:14:05.406Z",
-    "end": "2022-08-19T09:14:05.885Z",
-    "duration": 479
+    "failures": 1,
+    "start": "2022-08-20T07:10:25.843Z",
+    "end": "2022-08-20T07:10:26.314Z",
+    "duration": 471
   },
   "tests": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 4,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -27,14 +27,14 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -58,11 +58,11 @@
       "duration": 1,
       "currentRetry": 0,
       "err": {
-        "message": "expected 'Thank you so much.' to equal 'Thank you.'",
+        "message": "expected 'Bye.' to equal 'Thank you.'",
         "showDiff": true,
-        "actual": "Thank you so much.",
+        "actual": "Bye.",
         "expected": "Thank you.",
-        "stack": "AssertionError: expected 'Thank you so much.' to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:32:58)\n    at processImmediate (internal/timers.js:461:21)"
+        "stack": "AssertionError: expected 'Bye.' to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:32:58)\n    at processImmediate (internal/timers.js:461:21)"
       }
     },
     {
@@ -70,13 +70,7 @@
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'Thank you so much.' to equal 'Bye.'",
-        "showDiff": true,
-        "actual": "Thank you so much.",
-        "expected": "Bye.",
-        "stack": "AssertionError: expected 'Thank you so much.' to equal 'Bye.'\n    at Context.<anonymous> (test/indexTest.js:36:64)\n    at processImmediate (internal/timers.js:461:21)"
-      }
+      "err": {}
     }
   ],
   "pending": [],
@@ -87,24 +81,11 @@
       "duration": 1,
       "currentRetry": 0,
       "err": {
-        "message": "expected 'Thank you so much.' to equal 'Thank you.'",
+        "message": "expected 'Bye.' to equal 'Thank you.'",
         "showDiff": true,
-        "actual": "Thank you so much.",
+        "actual": "Bye.",
         "expected": "Thank you.",
-        "stack": "AssertionError: expected 'Thank you so much.' to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:32:58)\n    at processImmediate (internal/timers.js:461:21)"
-      }
-    },
-    {
-      "title": "should return \"Bye.\" if anything else",
-      "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Thank you so much.' to equal 'Bye.'",
-        "showDiff": true,
-        "actual": "Thank you so much.",
-        "expected": "Bye.",
-        "stack": "AssertionError: expected 'Thank you so much.' to equal 'Bye.'\n    at Context.<anonymous> (test/indexTest.js:36:64)\n    at processImmediate (internal/timers.js:461:21)"
+        "stack": "AssertionError: expected 'Bye.' to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:32:58)\n    at processImmediate (internal/timers.js:461:21)"
       }
     }
   ],
@@ -112,7 +93,7 @@
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 4,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -126,14 +107,14 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -147,6 +128,13 @@
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"Bye.\" if anything else",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
